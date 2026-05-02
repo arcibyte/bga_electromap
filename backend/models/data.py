@@ -40,3 +40,56 @@ electrolineras = [
         "lon": -73.1600
     }
 ]
+
+puntos_referencia = [
+    {
+        "nombre": "UIS Campus Central",
+        "lat": 7.1405,
+        "lon": -73.1200
+    },
+    {
+        "nombre": "UIS Florida",
+        "lat": 7.0631,
+        "lon": -73.0855
+    },
+    {
+        "nombre": "UIS Guatiguará",
+        "lat": 6.9910,
+        "lon": -73.0485
+    },
+    {
+        "nombre": "UIS Bucarica",
+        "lat": 7.1250,
+        "lon": -73.1190
+    },
+    {
+        "nombre": "CENFER",
+        "lat": 7.0653,
+        "lon": -73.0865
+    },
+    {
+        "nombre": "UNAB",
+        "lat": 7.1150,
+        "lon": -73.1050
+    },
+    {
+        "nombre": "UTS",
+        "lat": 7.1180,
+        "lon": -73.1080
+    },
+    {
+        "nombre": "UPB",
+        "lat": 7.0735,
+        "lon": -73.1065
+    },
+    {
+        "nombre": "PTAR Rio Frio",
+        "lat": 7.0500,
+        "lon": -73.0800
+    },
+    {
+        "nombre": "Recreacional Catay",
+        "lat": 7.0800,
+        "lon": -73.1400
+    }
+]
