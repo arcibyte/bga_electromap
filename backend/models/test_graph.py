@@ -1,5 +1,5 @@
-from graph_engine import GraphEngine
-from data import electrolineras, puntos_referencia
+from backend.models.graph_engine import GraphEngine
+from backend.data.data import electrolineras, puntos_referencia
 import osmnx as ox
 
 engine = GraphEngine()
