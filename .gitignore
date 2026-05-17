@@ -1,0 +1,27 @@
+cat << 'EOF' > .gitignore
+#virtual environment and dependencies
+.venv/
+env/
+venv/
+requirements.txt.log
+
+#python and system caches
+**/__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+cache/
+
+#project-specific files (map cache and temporary data)
+data/*.graphml
+data/simulation_logs/
+
+#automatically generated reports and plots
+*.html
+*.png
+*.csv
+!data/locations.py
+!data/vehicles.py
+
+# trained model binaries
+data/*.pkl
+EOF
