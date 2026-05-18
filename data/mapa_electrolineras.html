@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0eff6b58a3e8751a2b5af0abb28d541d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0eff6b58a3e8751a2b5af0abb28d541d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0eff6b58a3e8751a2b5af0abb28d541d = L.map(
+                "map_0eff6b58a3e8751a2b5af0abb28d541d",
+                {
+                    center: [7.08, -73.11],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_62d92cb65e04c5bbef9922616b174e86 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_62d92cb65e04c5bbef9922616b174e86.addTo(map_0eff6b58a3e8751a2b5af0abb28d541d);
+        
+    
+            var feature_group_b1c3039d2f7107c479b6d546b3872673 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_935fc8926f4f5c0918cb40efd312eb54 = L.marker(
+                [7.1193, -73.1227],
+                {
+}
+            ).addTo(feature_group_b1c3039d2f7107c479b6d546b3872673);
+        
+    
+            var icon_23de9d3960347bf1a131e50ed2623b61 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dca39b61cc561d8b40e5a88121dc0baf = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_95b3b8258d624cb04797fbe74338a88d = $(`<div id="html_95b3b8258d624cb04797fbe74338a88d" style="width: 100.0%; height: 100.0%;"><b>Homecenter</b></div>`)[0];
+                popup_dca39b61cc561d8b40e5a88121dc0baf.setContent(html_95b3b8258d624cb04797fbe74338a88d);
+            
+        
+
+        marker_935fc8926f4f5c0918cb40efd312eb54.bindPopup(popup_dca39b61cc561d8b40e5a88121dc0baf)
+        ;
+
+        
+    
+    
+            marker_935fc8926f4f5c0918cb40efd312eb54.bindTooltip(
+                `<div>
+                     Homecenter
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_935fc8926f4f5c0918cb40efd312eb54.setIcon(icon_23de9d3960347bf1a131e50ed2623b61);
+            
+    
+            var marker_7c00d723c176ace8534e1140a07363af = L.marker(
+                [7.113, -73.109],
+                {
+}
+            ).addTo(feature_group_b1c3039d2f7107c479b6d546b3872673);
+        
+    
+            var icon_4326773ae200fcab8a1afa95196c3572 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f17493d657ba3b668c512d191dec968a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_479b03a8135a2684323482a86e7dec04 = $(`<div id="html_479b03a8135a2684323482a86e7dec04" style="width: 100.0%; height: 100.0%;"><b>CC Quinta Etapa</b></div>`)[0];
+                popup_f17493d657ba3b668c512d191dec968a.setContent(html_479b03a8135a2684323482a86e7dec04);
+            
+        
+
+        marker_7c00d723c176ace8534e1140a07363af.bindPopup(popup_f17493d657ba3b668c512d191dec968a)
+        ;
+
+        
+    
+    
+            marker_7c00d723c176ace8534e1140a07363af.bindTooltip(
+                `<div>
+                     CC Quinta Etapa
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7c00d723c176ace8534e1140a07363af.setIcon(icon_4326773ae200fcab8a1afa95196c3572);
+            
+    
+            var marker_eea0a35a0af76e4976ad1b02dffadc74 = L.marker(
+                [7.1052, -73.1145],
+                {
+}
+            ).addTo(feature_group_b1c3039d2f7107c479b6d546b3872673);
+        
+    
+            var icon_03da56261369b15e970771f7ed341b62 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a4d1e3e1999fcfcaec83979a9cc8a6f0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_606fe3929856af648413aa461b571fa5 = $(`<div id="html_606fe3929856af648413aa461b571fa5" style="width: 100.0%; height: 100.0%;"><b>CC Cacique</b></div>`)[0];
+                popup_a4d1e3e1999fcfcaec83979a9cc8a6f0.setContent(html_606fe3929856af648413aa461b571fa5);
+            
+        
+
+        marker_eea0a35a0af76e4976ad1b02dffadc74.bindPopup(popup_a4d1e3e1999fcfcaec83979a9cc8a6f0)
+        ;
+
+        
+    
+    
+            marker_eea0a35a0af76e4976ad1b02dffadc74.bindTooltip(
+                `<div>
+                     CC Cacique
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_eea0a35a0af76e4976ad1b02dffadc74.setIcon(icon_03da56261369b15e970771f7ed341b62);
+            
+    
+            var marker_fe06ca67c90bce14435d61246ef063e1 = L.marker(
+                [7.073, -73.106],
+                {
+}
+            ).addTo(feature_group_b1c3039d2f7107c479b6d546b3872673);
+        
+    
+            var icon_adb7a8de57b7921af45af0389d5edc0c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0018b02282dd6a5938c4ab0329af08e1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_13feb2479b594f7379aa46243f7762de = $(`<div id="html_13feb2479b594f7379aa46243f7762de" style="width: 100.0%; height: 100.0%;"><b>CC Cañaveral</b></div>`)[0];
+                popup_0018b02282dd6a5938c4ab0329af08e1.setContent(html_13feb2479b594f7379aa46243f7762de);
+            
+        
+
+        marker_fe06ca67c90bce14435d61246ef063e1.bindPopup(popup_0018b02282dd6a5938c4ab0329af08e1)
+        ;
+
+        
+    
+    
+            marker_fe06ca67c90bce14435d61246ef063e1.bindTooltip(
+                `<div>
+                     CC Cañaveral
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fe06ca67c90bce14435d61246ef063e1.setIcon(icon_adb7a8de57b7921af45af0389d5edc0c);
+            
+    
+            var marker_61a407ff7e878f857d6f13f1169e6e9e = L.marker(
+                [6.987, -73.049],
+                {
+}
+            ).addTo(feature_group_b1c3039d2f7107c479b6d546b3872673);
+        
+    
+            var icon_ddf9faf34136d0acb241965f7fe5ce1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2790081a8be7dadc787454b176a25dd0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_dc22dc5bd46978a38014ca62ecbb0817 = $(`<div id="html_dc22dc5bd46978a38014ca62ecbb0817" style="width: 100.0%; height: 100.0%;"><b>Terpel Piedecuesta</b></div>`)[0];
+                popup_2790081a8be7dadc787454b176a25dd0.setContent(html_dc22dc5bd46978a38014ca62ecbb0817);
+            
+        
+
+        marker_61a407ff7e878f857d6f13f1169e6e9e.bindPopup(popup_2790081a8be7dadc787454b176a25dd0)
+        ;
+
+        
+    
+    
+            marker_61a407ff7e878f857d6f13f1169e6e9e.bindTooltip(
+                `<div>
+                     Terpel Piedecuesta
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_61a407ff7e878f857d6f13f1169e6e9e.setIcon(icon_ddf9faf34136d0acb241965f7fe5ce1c);
+            
+    
+            var marker_b5e256398fc07c6721201fe0f920cbe1 = L.marker(
+                [7.119, -73.108],
+                {
+}
+            ).addTo(feature_group_b1c3039d2f7107c479b6d546b3872673);
+        
+    
+            var icon_578672a4e988cc87b0fa9c3e2f9e696d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6bf5d191bdcfc4bf6d5dfa8eef7c9fee = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_08e75ddb3d8819f7686c9a8d1291df72 = $(`<div id="html_08e75ddb3d8819f7686c9a8d1291df72" style="width: 100.0%; height: 100.0%;"><b>Éxito La Rosita</b></div>`)[0];
+                popup_6bf5d191bdcfc4bf6d5dfa8eef7c9fee.setContent(html_08e75ddb3d8819f7686c9a8d1291df72);
+            
+        
+
+        marker_b5e256398fc07c6721201fe0f920cbe1.bindPopup(popup_6bf5d191bdcfc4bf6d5dfa8eef7c9fee)
+        ;
+
+        
+    
+    
+            marker_b5e256398fc07c6721201fe0f920cbe1.bindTooltip(
+                `<div>
+                     Éxito La Rosita
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b5e256398fc07c6721201fe0f920cbe1.setIcon(icon_578672a4e988cc87b0fa9c3e2f9e696d);
+            
+    
+            var marker_48ddd26a38949eeab1e7834fd1941c69 = L.marker(
+                [7.061, -73.086],
+                {
+}
+            ).addTo(feature_group_b1c3039d2f7107c479b6d546b3872673);
+        
+    
+            var icon_906efe81f48889f7339f31deb82a17df = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f2536ccd548c8b7dcc9de94ada830b35 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_642b6f9a3eadcd476f3ed2d2d5c9dd2a = $(`<div id="html_642b6f9a3eadcd476f3ed2d2d5c9dd2a" style="width: 100.0%; height: 100.0%;"><b>CC La Florida</b></div>`)[0];
+                popup_f2536ccd548c8b7dcc9de94ada830b35.setContent(html_642b6f9a3eadcd476f3ed2d2d5c9dd2a);
+            
+        
+
+        marker_48ddd26a38949eeab1e7834fd1941c69.bindPopup(popup_f2536ccd548c8b7dcc9de94ada830b35)
+        ;
+
+        
+    
+    
+            marker_48ddd26a38949eeab1e7834fd1941c69.bindTooltip(
+                `<div>
+                     CC La Florida
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_48ddd26a38949eeab1e7834fd1941c69.setIcon(icon_906efe81f48889f7339f31deb82a17df);
+            
+    
+            var marker_1bb4f47b875376eafd7b987b21ae5557 = L.marker(
+                [7.095, -73.16],
+                {
+}
+            ).addTo(feature_group_b1c3039d2f7107c479b6d546b3872673);
+        
+    
+            var icon_1dc07b7ec80ec6725e5606356d37e311 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "bolt",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d8fbf64a006e67c1e564ef1c92329ce6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_33c36b8565d8407a2a80ed51d2fbffc2 = $(`<div id="html_33c36b8565d8407a2a80ed51d2fbffc2" style="width: 100.0%; height: 100.0%;"><b>Promotores del Oriente</b></div>`)[0];
+                popup_d8fbf64a006e67c1e564ef1c92329ce6.setContent(html_33c36b8565d8407a2a80ed51d2fbffc2);
+            
+        
+
+        marker_1bb4f47b875376eafd7b987b21ae5557.bindPopup(popup_d8fbf64a006e67c1e564ef1c92329ce6)
+        ;
+
+        
+    
+    
+            marker_1bb4f47b875376eafd7b987b21ae5557.bindTooltip(
+                `<div>
+                     Promotores del Oriente
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1bb4f47b875376eafd7b987b21ae5557.setIcon(icon_1dc07b7ec80ec6725e5606356d37e311);
+            
+    
+            feature_group_b1c3039d2f7107c479b6d546b3872673.addTo(map_0eff6b58a3e8751a2b5af0abb28d541d);
+        
+    
+            var feature_group_85a52ca85c97b1bced240c7c292a071c = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var marker_d0927a1daed411698b3527daf098b036 = L.marker(
+                [7.1405, -73.12],
+                {
+}
+            ).addTo(feature_group_85a52ca85c97b1bced240c7c292a071c);
+        
+    
+            var icon_9fff9e8a50180708c6fe7c53bacc6331 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d6587a97f81c8d19e5b0a8ba13b797c3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fde8d398d22a8a673e43bd7d5e8e86ca = $(`<div id="html_fde8d398d22a8a673e43bd7d5e8e86ca" style="width: 100.0%; height: 100.0%;"><b>UIS Campus Central</b></div>`)[0];
+                popup_d6587a97f81c8d19e5b0a8ba13b797c3.setContent(html_fde8d398d22a8a673e43bd7d5e8e86ca);
+            
+        
+
+        marker_d0927a1daed411698b3527daf098b036.bindPopup(popup_d6587a97f81c8d19e5b0a8ba13b797c3)
+        ;
+
+        
+    
+    
+            marker_d0927a1daed411698b3527daf098b036.bindTooltip(
+                `<div>
+                     UIS Campus Central
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d0927a1daed411698b3527daf098b036.setIcon(icon_9fff9e8a50180708c6fe7c53bacc6331);
+            
+    
+            var marker_ab2dce61023f8229a6be0930432a683f = L.marker(
+                [7.0631, -73.0855],
+                {
+}
+            ).addTo(feature_group_85a52ca85c97b1bced240c7c292a071c);
+        
+    
+            var icon_ab37694f3b1895d99644c30794f55d47 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5fe427955adedd020b893d8766f67cef = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_65cd19fc738261594ba907cecc6619a4 = $(`<div id="html_65cd19fc738261594ba907cecc6619a4" style="width: 100.0%; height: 100.0%;"><b>UIS Florida</b></div>`)[0];
+                popup_5fe427955adedd020b893d8766f67cef.setContent(html_65cd19fc738261594ba907cecc6619a4);
+            
+        
+
+        marker_ab2dce61023f8229a6be0930432a683f.bindPopup(popup_5fe427955adedd020b893d8766f67cef)
+        ;
+
+        
+    
+    
+            marker_ab2dce61023f8229a6be0930432a683f.bindTooltip(
+                `<div>
+                     UIS Florida
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ab2dce61023f8229a6be0930432a683f.setIcon(icon_ab37694f3b1895d99644c30794f55d47);
+            
+    
+            var marker_118828b41615e2c730ff8dace4b519eb = L.marker(
+                [6.991, -73.0485],
+                {
+}
+            ).addTo(feature_group_85a52ca85c97b1bced240c7c292a071c);
+        
+    
+            var icon_8e5d0f5156eb84f59c9f8d2b31d17334 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4ba7a31be866718a7ffb94f97fed0b8d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d64312b8c5f7de3695d7326bef5df464 = $(`<div id="html_d64312b8c5f7de3695d7326bef5df464" style="width: 100.0%; height: 100.0%;"><b>UIS Guatiguará</b></div>`)[0];
+                popup_4ba7a31be866718a7ffb94f97fed0b8d.setContent(html_d64312b8c5f7de3695d7326bef5df464);
+            
+        
+
+        marker_118828b41615e2c730ff8dace4b519eb.bindPopup(popup_4ba7a31be866718a7ffb94f97fed0b8d)
+        ;
+
+        
+    
+    
+            marker_118828b41615e2c730ff8dace4b519eb.bindTooltip(
+                `<div>
+                     UIS Guatiguará
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_118828b41615e2c730ff8dace4b519eb.setIcon(icon_8e5d0f5156eb84f59c9f8d2b31d17334);
+            
+    
+            var marker_e27f7af68f811afaef92fe1e59f6d9ad = L.marker(
+                [7.125, -73.119],
+                {
+}
+            ).addTo(feature_group_85a52ca85c97b1bced240c7c292a071c);
+        
+    
+            var icon_87007cc4854fd548c917e53a61702e44 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9eb707f4ee2761698ccd0606910613be = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_92addbfb0ca935d4b5e2f79713106f0a = $(`<div id="html_92addbfb0ca935d4b5e2f79713106f0a" style="width: 100.0%; height: 100.0%;"><b>UIS Bucarica</b></div>`)[0];
+                popup_9eb707f4ee2761698ccd0606910613be.setContent(html_92addbfb0ca935d4b5e2f79713106f0a);
+            
+        
+
+        marker_e27f7af68f811afaef92fe1e59f6d9ad.bindPopup(popup_9eb707f4ee2761698ccd0606910613be)
+        ;
+
+        
+    
+    
+            marker_e27f7af68f811afaef92fe1e59f6d9ad.bindTooltip(
+                `<div>
+                     UIS Bucarica
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e27f7af68f811afaef92fe1e59f6d9ad.setIcon(icon_87007cc4854fd548c917e53a61702e44);
+            
+    
+            var marker_33d528c93fd2b18ff27d53bd5f4d1f65 = L.marker(
+                [7.0653, -73.0865],
+                {
+}
+            ).addTo(feature_group_85a52ca85c97b1bced240c7c292a071c);
+        
+    
+            var icon_4e5c72dc3ca725fb20b9c0e3c02224db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_688930f362b588633e64fc289a365ea2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1ef31e8be1fde196202835c00e29856b = $(`<div id="html_1ef31e8be1fde196202835c00e29856b" style="width: 100.0%; height: 100.0%;"><b>CENFER</b></div>`)[0];
+                popup_688930f362b588633e64fc289a365ea2.setContent(html_1ef31e8be1fde196202835c00e29856b);
+            
+        
+
+        marker_33d528c93fd2b18ff27d53bd5f4d1f65.bindPopup(popup_688930f362b588633e64fc289a365ea2)
+        ;
+
+        
+    
+    
+            marker_33d528c93fd2b18ff27d53bd5f4d1f65.bindTooltip(
+                `<div>
+                     CENFER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_33d528c93fd2b18ff27d53bd5f4d1f65.setIcon(icon_4e5c72dc3ca725fb20b9c0e3c02224db);
+            
+    
+            var marker_deedf46324395918fa2c725399a224c2 = L.marker(
+                [7.115, -73.105],
+                {
+}
+            ).addTo(feature_group_85a52ca85c97b1bced240c7c292a071c);
+        
+    
+            var icon_1a96667c1790e161c416e1b977d76fca = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_99c75bb60aa81b02e4d849c2d4ac822c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1ed08f0f1f06c001cbdde227629a0963 = $(`<div id="html_1ed08f0f1f06c001cbdde227629a0963" style="width: 100.0%; height: 100.0%;"><b>UNAB</b></div>`)[0];
+                popup_99c75bb60aa81b02e4d849c2d4ac822c.setContent(html_1ed08f0f1f06c001cbdde227629a0963);
+            
+        
+
+        marker_deedf46324395918fa2c725399a224c2.bindPopup(popup_99c75bb60aa81b02e4d849c2d4ac822c)
+        ;
+
+        
+    
+    
+            marker_deedf46324395918fa2c725399a224c2.bindTooltip(
+                `<div>
+                     UNAB
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_deedf46324395918fa2c725399a224c2.setIcon(icon_1a96667c1790e161c416e1b977d76fca);
+            
+    
+            var marker_b6a06e342fe315e19c75632e0e38eccc = L.marker(
+                [7.118, -73.108],
+                {
+}
+            ).addTo(feature_group_85a52ca85c97b1bced240c7c292a071c);
+        
+    
+            var icon_ff72a5337f4ff64f903347ad0b99dcd9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_289a380720f3997f7995d3d018c63f39 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8300162b318ccc025f4eb8c7134f682e = $(`<div id="html_8300162b318ccc025f4eb8c7134f682e" style="width: 100.0%; height: 100.0%;"><b>UTS</b></div>`)[0];
+                popup_289a380720f3997f7995d3d018c63f39.setContent(html_8300162b318ccc025f4eb8c7134f682e);
+            
+        
+
+        marker_b6a06e342fe315e19c75632e0e38eccc.bindPopup(popup_289a380720f3997f7995d3d018c63f39)
+        ;
+
+        
+    
+    
+            marker_b6a06e342fe315e19c75632e0e38eccc.bindTooltip(
+                `<div>
+                     UTS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b6a06e342fe315e19c75632e0e38eccc.setIcon(icon_ff72a5337f4ff64f903347ad0b99dcd9);
+            
+    
+            var marker_0f37d4481c64571578e7b133eed39d43 = L.marker(
+                [7.0735, -73.1065],
+                {
+}
+            ).addTo(feature_group_85a52ca85c97b1bced240c7c292a071c);
+        
+    
+            var icon_cac28d633b4d389f08dda92dd01a4b9d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_068c657668ec3f4c2655f07249a56469 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_acdb97ded500542df7145ec280f08c05 = $(`<div id="html_acdb97ded500542df7145ec280f08c05" style="width: 100.0%; height: 100.0%;"><b>UPB</b></div>`)[0];
+                popup_068c657668ec3f4c2655f07249a56469.setContent(html_acdb97ded500542df7145ec280f08c05);
+            
+        
+
+        marker_0f37d4481c64571578e7b133eed39d43.bindPopup(popup_068c657668ec3f4c2655f07249a56469)
+        ;
+
+        
+    
+    
+            marker_0f37d4481c64571578e7b133eed39d43.bindTooltip(
+                `<div>
+                     UPB
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0f37d4481c64571578e7b133eed39d43.setIcon(icon_cac28d633b4d389f08dda92dd01a4b9d);
+            
+    
+            var marker_3231df43f9d081a119be355ba3c95a35 = L.marker(
+                [7.05, -73.08],
+                {
+}
+            ).addTo(feature_group_85a52ca85c97b1bced240c7c292a071c);
+        
+    
+            var icon_df043c25c26feb9f9c590f9f79d6a344 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_53436ffd68d6db97cb1e06d634067832 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ea0ff90421dc1cc56b7e5f6dbefae76f = $(`<div id="html_ea0ff90421dc1cc56b7e5f6dbefae76f" style="width: 100.0%; height: 100.0%;"><b>PTAR Rio Frio</b></div>`)[0];
+                popup_53436ffd68d6db97cb1e06d634067832.setContent(html_ea0ff90421dc1cc56b7e5f6dbefae76f);
+            
+        
+
+        marker_3231df43f9d081a119be355ba3c95a35.bindPopup(popup_53436ffd68d6db97cb1e06d634067832)
+        ;
+
+        
+    
+    
+            marker_3231df43f9d081a119be355ba3c95a35.bindTooltip(
+                `<div>
+                     PTAR Rio Frio
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3231df43f9d081a119be355ba3c95a35.setIcon(icon_df043c25c26feb9f9c590f9f79d6a344);
+            
+    
+            var marker_654e22f1ec1da90b81cd5a6cd4dbb5dd = L.marker(
+                [7.08, -73.14],
+                {
+}
+            ).addTo(feature_group_85a52ca85c97b1bced240c7c292a071c);
+        
+    
+            var icon_e34f8615e0217ba56df12183535a07b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_118030cf009f5b592b330ce0970ee3a0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7b4b059cff07eda57a225cfb522f3ff0 = $(`<div id="html_7b4b059cff07eda57a225cfb522f3ff0" style="width: 100.0%; height: 100.0%;"><b>Recreacional Catay</b></div>`)[0];
+                popup_118030cf009f5b592b330ce0970ee3a0.setContent(html_7b4b059cff07eda57a225cfb522f3ff0);
+            
+        
+
+        marker_654e22f1ec1da90b81cd5a6cd4dbb5dd.bindPopup(popup_118030cf009f5b592b330ce0970ee3a0)
+        ;
+
+        
+    
+    
+            marker_654e22f1ec1da90b81cd5a6cd4dbb5dd.bindTooltip(
+                `<div>
+                     Recreacional Catay
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_654e22f1ec1da90b81cd5a6cd4dbb5dd.setIcon(icon_e34f8615e0217ba56df12183535a07b2);
+            
+    
+            feature_group_85a52ca85c97b1bced240c7c292a071c.addTo(map_0eff6b58a3e8751a2b5af0abb28d541d);
+        
+    
+            var feature_group_5d39cba1722d3dee3f9140a5579149a2 = L.featureGroup(
+                {
+}
+            );
+        
+    
+            var circle_df21edecd419e66a74deebfcfc6ca9b8 = L.circle(
+                [7.1193, -73.1227],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1440, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5d39cba1722d3dee3f9140a5579149a2);
+        
+    
+            circle_df21edecd419e66a74deebfcfc6ca9b8.bindTooltip(
+                `<div>
+                     Homecenter: 18 recargas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_e6b9c3afebdfb4cb901b894d6b1a62c6 = L.circle(
+                [7.113, -73.109],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 800, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5d39cba1722d3dee3f9140a5579149a2);
+        
+    
+            circle_e6b9c3afebdfb4cb901b894d6b1a62c6.bindTooltip(
+                `<div>
+                     CC Quinta Etapa: 10 recargas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_278b7a6a80c5c7c9511835fdf8066e1e = L.circle(
+                [7.073, -73.106],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1520, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5d39cba1722d3dee3f9140a5579149a2);
+        
+    
+            circle_278b7a6a80c5c7c9511835fdf8066e1e.bindTooltip(
+                `<div>
+                     CC Cañaveral: 19 recargas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_f0ebd2726032ee9e009e021c9c3fafeb = L.circle(
+                [6.987, -73.049],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1120, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5d39cba1722d3dee3f9140a5579149a2);
+        
+    
+            circle_f0ebd2726032ee9e009e021c9c3fafeb.bindTooltip(
+                `<div>
+                     Terpel Piedecuesta: 14 recargas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_8c516ea50b5e60b5a334f2fa8320cd58 = L.circle(
+                [7.119, -73.108],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 560, "stroke": true, "weight": 3}
+            ).addTo(feature_group_5d39cba1722d3dee3f9140a5579149a2);
+        
+    
+            circle_8c516ea50b5e60b5a334f2fa8320cd58.bindTooltip(
+                `<div>
+                     Éxito La Rosita: 7 recargas
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            feature_group_5d39cba1722d3dee3f9140a5579149a2.addTo(map_0eff6b58a3e8751a2b5af0abb28d541d);
+        
+    
+            var layer_control_4def0a04adec4ef1072f76d3068f2649_layers = {
+                base_layers : {
+                    "cartodbpositron" : tile_layer_62d92cb65e04c5bbef9922616b174e86,
+                },
+                overlays :  {
+                    "electrolineras" : feature_group_b1c3039d2f7107c479b6d546b3872673,
+                    "puntos de referencia" : feature_group_85a52ca85c97b1bced240c7c292a071c,
+                    "intensidad de uso" : feature_group_5d39cba1722d3dee3f9140a5579149a2,
+                },
+            };
+            let layer_control_4def0a04adec4ef1072f76d3068f2649 = L.control.layers(
+                layer_control_4def0a04adec4ef1072f76d3068f2649_layers.base_layers,
+                layer_control_4def0a04adec4ef1072f76d3068f2649_layers.overlays,
+                {
+  "position": "topright",
+  "collapsed": true,
+  "autoZIndex": true,
+}
+            ).addTo(map_0eff6b58a3e8751a2b5af0abb28d541d);
+
+        
+</script>
+</html>
