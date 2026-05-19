@@ -16,6 +16,7 @@ def mostrar_menu_principal():
     print("  8.  Mapa interactivo (Folium)")
     print("  9.  Gráficas (Plotly)")
     print("  10. Exportar datos")
+    print("  11. Sugerir nueva electrolinera")
     print("  0.  Salir")
     print("\n  Opción: ", end="")
 
